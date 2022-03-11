@@ -40,3 +40,16 @@ console.log(typeof year);
 year = 2001;
 console.log(year);
 console.log(typeof null); // it returns an 'object'; this is a known bug and it's keeped this way for legacy purpose
+
+// Variable and Constant Declarations
+
+// 'let' is used when you assign a value to a variable and it can be changed later (mutate a variable)
+let numberOfChildren = 2;
+numberOfChildren = 3;
+
+// 'const' is used when you assign a value it can't be changed later
+const birthYear = 1977;
+birthYear = 2000; // that causes an error
+
+// 'var' is and old way to declare variables and must be avoid
+
