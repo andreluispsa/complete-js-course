@@ -1,4 +1,4 @@
-let js = 'amazing';
+/* let js = 'amazing';
 console.log(40 + 8 + 23 - 10);
 
 // -------------------------------------------------------------------------
@@ -51,5 +51,31 @@ numberOfChildren = 3;
 const birthYear = 1977;
 birthYear = 2000; // that causes an error
 
-// 'var' is and old way to declare variables and must be avoid
+// 'var' is and old way to declare variables and must be avoid */
 
+// math operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2020;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2**3);
+
+const firstName = 'Jonas';
+const lastName = 'Shchemedtmann';
+console.log(firstName + ' ' + lastName);
+
+// assignment operators
+let x = 10 + 5;
+x += 10; // x = x + 10;
+x *= 4; // x = x * 10;
+x++; // x = x + 1;
+x--; // x = x - 1;
+x--;
+console.log(x);
+
+// comparison operators -- produce boolean values
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
