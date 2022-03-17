@@ -51,7 +51,7 @@ numberOfChildren = 3;
 const birthYear = 1977;
 birthYear = 2000; // that causes an error
 
-// 'var' is and old way to declare variables and must be avoid */
+// 'var' is and old way to declare variables and must be avoid
 
 // math operators
 const now = 2037;
@@ -78,4 +78,10 @@ console.log(x);
 console.log(ageJonas > ageSarah); // >, <, >=, <=
 console.log(ageSarah >= 18);
 
-const isFullAge = ageSarah >= 18;
+const isFullAge = ageSarah >= 18; */
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2020;
+
+console.log(now - 1991 > now - 2018);
